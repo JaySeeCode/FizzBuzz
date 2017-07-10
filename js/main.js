@@ -3,7 +3,9 @@ var text =
 	`Write a program that prints the numbers from 1 to 100.<br>
 	But for multiples of three print “Fizz” instead of the number<br>
 	and for the multiples of five print “Buzz”. For numbers which<br>
-	are multiples of both three and five print “FizzBuzz”<br>
+	are multiples of both three and five print “FizzBuzz”<br><br>
+
+	<span class='title'>Solution</span>
 	<span class='code-block'>
 		for (var i = 1; i <= 100; i++) {
 			<br>&nbsp;&nbsp;
@@ -19,7 +21,7 @@ var text =
 
 //will render HTML to browser
 function generateText(text) {
-	var element = document.querySelector('.js-tip');
+	var element = document.querySelector('.container');
 
 	element.innerHTML = text;
 }

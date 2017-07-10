@@ -13,7 +13,7 @@ body {
   margin: 10vh auto;
 }
 
-.tip {
+.wrapper {
   width: 100%;
 }
 
@@ -37,6 +37,8 @@ body {
 
 .code-output {
   font-family: monaco, Consolas, "Lucida Console", monospace;
+  /*alternative font: "Courier New", Courier, monospace; */
+  font-weight: bold;
   background-color: black;
   padding: 0.5em 0.75em;
   font-size: 1.15rem;
@@ -47,7 +49,7 @@ body {
   overflow: scroll;
 }
 
-.tip-number {
+.title {
   margin: auto;
   margin-bottom: 2.5rem;
   color: #CCCCCC;
@@ -57,25 +59,11 @@ body {
   font-size: 1rem;
 }
 
-.js-tip {
+.container {
   margin: auto;
   line-height: 2rem;
   font-weight: 300;
   font-size: 1.375rem;
-}
-
-.tip-button {
-  background-color: #34B3A0;
-  outline: none;
-  padding: 1rem 1.5rem;
-  display: inline-block;
-  margin: auto;
-  font-size: 1rem;
-  margin-top: 2.5rem;
-  cursor: pointer;
-  font-weight: bolder;
-  border: none;
-  color: white;
 }
 
 .disabled {
